@@ -30,20 +30,20 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-  _`.forEach` is a method that traverses an array and returns each element of the array._
+    _`.forEach` is a method that traverses an array and returns each element of the array._
 
-  _`.map` is a method that traverses an array and returns each element in a NEW ARRAY._
+    _`.map` is a method that traverses an array and returns each element in a NEW ARRAY._
 
 
 2. What is the difference between a function and a method?
 
-  _A function is a sequence of code statements that return a value_
+    _A function is a sequence of code statements that return a value_
 
-  _A method is a function inside an object_
+    _A method is a function inside an object_
 
 3. What is closure?
 
-  _Closure is a combination of a function and the associated environment or code block where all nested functions inside the code block can inherit variables that were declared in the parent function_
+    _Closure is a combination of a function and the associated environment or code block where all nested functions inside the code block can inherit variables that were declared in the parent function_
 
 4. Describe the four rules of the 'this' keyword.
 
