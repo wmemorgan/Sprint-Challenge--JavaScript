@@ -5,45 +5,34 @@
   Use this pattern to create your objects: 
   object name, diet, weight, length, period
 */
-function Dinosaur(attributes) {
-  this.name = attributes.name,
-  this.diet = attributes.diet,
-  this.weight = attributes.weight,
-  this.length = attributes.length,
-  this.period = attributes.period
-}
-
-Dinosaur.prototype.roar = function () {
-  return `RAWERSRARARWERSARARARRRR`
-}
 
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceious
-const tyrannosaurus = new Dinosaur({
+let tyrannosaurus = {
   name: 'tyrannosaurus',
   diet: 'carnivorous',
   weight: '700kg',
   length: '12m',
   period: 'Late Cretaceious',
-  
-})
+  roar: () => 'RAWERSRARARWERSARARARRRR'
+}
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
-const stegosaurus = new Dinosaur({
+let stegosaurus = {
   name: 'stegosaurus',
   diet: 'herbivorous',
   weight: '2000kg',
   length: '9m',
   period: 'Late Jurassic'
-})
+}
 
 // velociraptor, carnivorous, 15kg, 1.8m, Late Cretaceious
-const velociraptor = new Dinosaur({
+let velociraptor = {
   name: 'velociraptor',
   diet: 'carnivorous',
   weight: '15kg',
   length: '1.8m',
   period: 'Late Cretaceious'
-})
+}
 
 // Using your dinosaur objects, log answers to these questions:
 
